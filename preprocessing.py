@@ -52,4 +52,4 @@ def load_and_preprocess_data(file_path):
 
     X = df[num_data + cat_data]
 
-    return df, X, processor
+    return df, X, processor , num_data , cat_data
